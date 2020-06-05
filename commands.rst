@@ -4,11 +4,12 @@
 
 3. Dump OSD perf stats: ``ceph daemon osd.$i perf dump``  
 
-4. Reset perf counter for osd.${OSD}: ``ceph daemon osd.${OSD} perf reset all``  
+4. Reset perf counter for an OSD: ``ceph daemon osd.${OSD} perf reset all``  
 
 5. Dump perf stats of an OSD: ``ceph daemon osd.${OSD} perf dump -f json``  
  
-6. Get OSD of the _current_ OSD unit (OSD num could be different than the juju unit num):
+6. Get OSD of the _current_ OSD unit (OSD num could be different than the juju unit num):  
+
    ``mount|grep /var/lib/ceph/osd/ceph-|awk '{print $3}' | cut -d- -f2 | sort -n | xargs``  
  
 
