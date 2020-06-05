@@ -9,3 +9,6 @@
 - Ceph status is HEALTH_WARN or HEALTH_ERROR. How to fix it? (or what are the common/potential situations that could case)
 
 - How do you generally figure out/understand whether the configuration is a cluster is optimal for the workload?
+
+- What's scrubbing? How often does it happen? How do you change the interval?
+
