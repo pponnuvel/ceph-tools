@@ -10,7 +10,7 @@
  
 6. Get OSD of the _current_ OSD unit (OSD num could be different than the juju unit num):  
 
-   ``mount|grep /var/lib/ceph/osd/ceph-|awk '{print $3}' | cut -d- -f2 | sort -n | xargs``  
+   ``mount | grep /var/lib/ceph/osd/ceph-|awk '{print $3}' | cut -d- -f2 | sort -n | xargs``  
  
 
 More:
