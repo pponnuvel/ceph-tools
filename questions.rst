@@ -13,3 +13,5 @@
 - What's scrubbing? How often does it happen? How do you change the interval?
 
 - Writes to RBD is slow. What causes it? How do you benchmark (``rbd bench`` vs. ``dd``)?
+
+- Utility of admin sockets or how can they be used for retrieving information?
