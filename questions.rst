@@ -15,3 +15,11 @@
 - Writes to RBD is slow. What causes it? How do you benchmark (``rbd bench`` vs. ``dd``)?
 
 - Utility of admin sockets or how can they be used for retrieving information?
+
+- How to stop the cluster safely? (both via juju and standard ways)
+
+- How to add a new OSD?
+
+- How to add a remove an OSD?
+
+- When is it safe to purge an OSD? (or what boxes need to be ticked before removing an OSD)
