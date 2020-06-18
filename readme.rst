@@ -25,3 +25,5 @@ https://blog.widodh.nl/2016/01/slow-requests-with-ceph-waiting-for-rw-locks/
 https://swamireddy.wordpress.com/2016/06/17/ceph-diff-ceph-osd-reweight-ceph-osd-crush-reweight/
 
 http://knowledgebase.45drives.com/kbtopic/ceph/
+
+https://events.static.linuxfound.org/sites/events/files/slides/20170323%20bluestore.pdf
