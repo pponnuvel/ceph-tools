@@ -23,7 +23,9 @@ Ceph OSD:
 
    ``mount | grep /var/lib/ceph/osd/ceph-|awk '{print $3}' | cut -d- -f2 | sort -n | xargs``
 
-7. Get OSD number: ``ceph osd tree``
+7. Get OSD number (run on a monitor node): ``ceph osd tree``
+
+8. Dump memory usage of an OSD: ``ceph daemon osd.${OSD} dump_mempools``
 
 
 Ceph MON:
