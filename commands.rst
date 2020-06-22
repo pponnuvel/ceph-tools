@@ -27,6 +27,9 @@ Ceph OSD:
 
 8. Dump memory usage of an OSD: ``ceph daemon osd.${OSD} dump_mempools``
 
+9. To check the current value of an``OSD_param``: ``ceph daemon osd.{OSD} config show | grep OSD_param``
+                                              or: ``ceph daemon osd.{id} config get OSD_param``
+
 
 Ceph MON:
 ---------
