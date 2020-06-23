@@ -11,3 +11,6 @@ Number of MONs
 MON version mismatch
 
 Memory usage of various daemons
+
+OSD data: https://docs.ceph.com/docs/master/rados/operations/monitoring-osd-pg/
+
