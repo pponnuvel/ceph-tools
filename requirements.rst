@@ -1,3 +1,5 @@
+Something that can be found automatically from sosreports.
+
 Ceph version
 
 Number of OSDs

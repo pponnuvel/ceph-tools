@@ -19,24 +19,19 @@ Ceph OSD:
 
 5. Dump perf stats of an OSD: ``ceph daemon osd.${OSD} perf dump -f json``
 
-6. Get OSD of the _current_ OSD unit (OSD num could be different than the juju unit num):
-
-   ``mount | grep /var/lib/ceph/osd/ceph- | awk '{split($3,a,"-"); print a[2]}'``
+6. Get OSD of the _current_ OSD unit (OSD num could be different than the juju unit num): ``mount | grep /var/lib/ceph/osd/ceph- | awk '{split($3, a, "-"); print a[2]}'``
 
 7. Get OSD number (run on a monitor node): ``ceph osd tree``
 
 8. Dump memory usage of an OSD: ``ceph daemon osd.${OSD} dump_mempools``
 
-9. To check the current value of an``OSD_param``: ``ceph daemon osd.{OSD} config show | grep OSD_param``
-                                              or: ``ceph daemon osd.{id} config get OSD_param``
+9. To check the current value of an OSD_param: ``ceph daemon osd.{OSD} config show | grep OSD_param`` or ``ceph daemon osd.{id} config get OSD_param``
 
-10. Quicken an OSD recovery:
+10. Quicken an OSD recovery: ``juju ssh ceph-mon/{MON} 'sudo ceph tell 'osd.*' injectargs '--osd_max_backfills 10 --osd_recovery_max_active 10 --osd_recovery_op_priority 63 --osd_recovery_sleep 0 --osd_recovery_sleep_hdd 0'``
 
-    ``juju ssh ceph-mon/{MON} 'sudo ceph tell 'osd.*' injectargs '--osd_max_backfills 10 --osd_recovery_max_active 10 --osd_recovery_op_priority 63 --osd_recovery_sleep 0 --osd_recovery_sleep_hdd 0'``
+11. Restore OSD recovery quicken params back to default: ``juju ssh ceph-mon/${MON} 'sudo ceph tell 'osd.*' injectargs '--osd_max_backfills 1 --osd_recovery_max_active 3 --osd_recovery_op_priority 3 --osd_recovery_sleep 0 --osd_recovery_sleep_hdd 0.1'``
 
-11. Restore OSD recovery quicken params back to default:
-
-    ``juju ssh ceph-mon/${MON} 'sudo ceph tell 'osd.*' injectargs '--osd_max_backfills 1 --osd_recovery_max_active 3 --osd_recovery_op_priority 3 --osd_recovery_sleep 0 --osd_recovery_sleep_hdd 0.1'``
+12. Get OSD device type: ``ceph osd metadata 5``
 
 
 Ceph MON:

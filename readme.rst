@@ -1,15 +1,32 @@
 Notes, tools, and utilities... and everything on Ceph.
 
-https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/1.2.3/html/red_hat_ceph_administration_guide/index
+General:
+--------
+https://tracker.ceph.com/projects/ceph/wiki/10_Commands_Every_Ceph_Administrator_Should_Know
 
-https://docs.ceph.com/docs/argonaut/ops/index.html
+WAL expansion:
+--------------
+https://people.canonical.com/~lathiat/00273199/wal-expansion-steps.txt
 
-http://lists.ceph.com/pipermail/ceph-users-ceph.com/2017-April/017378.html
+Ceph Cluster Expansion:
+-----------------------
+https://community.inkdrop.app/note/a09ea1b4d7103f2696a15ca7a5ab4268/note:nqtb2AY9t
+https://paste.ubuntu.com/p/GxMG2bFh7y/
 
-http://smithfarm-thebrain.blogspot.com/search/label/ceph
+Deep scrub:
+-----------
+https://ceph.io/geen-categorie/deep-scrub-distribution/
 
-https://docs.ceph.com/docs/mimic/rados/operations/
+Common support issues/troubleshooting:
+--------------------------------------
+http://bos.itdks.com/0b3d8c2a58cc44b3861b8b8d6c9750b1.pdf
 
+RADOS operations:
+-----------------
+https://docs.ceph.com/docs/master/rados/operations/
+
+RocksDB:
+--------
 https://github.com/facebook/rocksdb/wiki
 
 https://tracker.ceph.com/issues/36482#note-16
@@ -27,3 +44,14 @@ https://swamireddy.wordpress.com/2016/06/17/ceph-diff-ceph-osd-reweight-ceph-osd
 http://knowledgebase.45drives.com/kbtopic/ceph/
 
 https://events.static.linuxfound.org/sites/events/files/slides/20170323%20bluestore.pdf
+
+https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/1.2.3/html/red_hat_ceph_administration_guide/index
+
+https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/troubleshooting_guide
+
+https://docs.ceph.com/docs/argonaut/ops/index.html
+
+http://lists.ceph.com/pipermail/ceph-users-ceph.com/2017-April/017378.html
+
+http://smithfarm-thebrain.blogspot.com/search/label/ceph
+
