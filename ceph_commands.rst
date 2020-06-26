@@ -33,9 +33,14 @@ Ceph OSD:
 
 12. Get OSD device type: ``ceph osd metadata 5``
 
+13. Get an OSD's lvm: ``ceph-volume lvm list``
+
+14. Change all OSDs' OSD_param: ``ceph tell mon.* config set OSD_param {value}``
 
 Ceph MON:
 ---------
+
+1. Change all monitor's MON_param: ``ceph tell mon.* config set MON_param {value}``
 
 
 CEPH MGR:
@@ -89,8 +94,6 @@ More (Not shown/used above. Idea is to show at least usage for each command and 
  ``ceph-post-file``
 
  ``ceph-syn``
-
- ``ceph-volume``
 
  ``ceph_bench_log``
 
