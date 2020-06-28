@@ -16,3 +16,6 @@ Deep scrub:
 https://ceph.io/geen-categorie/deep-scrub-distribution/
 
 
+Redhat ceph:
+------------
+https://stackoverflow.com/q/16854280/1275169

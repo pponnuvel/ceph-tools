@@ -42,6 +42,8 @@ Ceph MON:
 
 1. Change all monitor's MON_param: ``ceph tell mon.* config set MON_param {value}``
 
+2. List all the pools: ``rados lspools``
+
 
 CEPH MGR:
 ---------
@@ -152,8 +154,6 @@ More (Not shown/used above. Idea is to show at least usage for each command and 
  ``neorados``
 
  ``osdmaptool``
-
- ``rados``
 
  ``radosgw-admin``
 

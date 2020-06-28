@@ -16,3 +16,5 @@ Memory usage of various daemons
 
 OSD data: https://docs.ceph.com/docs/master/rados/operations/monitoring-osd-pg/
 
+How long the OSDs are running for?
+
