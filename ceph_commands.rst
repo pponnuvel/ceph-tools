@@ -5,6 +5,10 @@ General/Cluster mgmt:
 
 2. List pools: ``ceph osd lspools``
 
+Pools:
+------
+Create a rados pool: ``ceph osd pool create ${pool_name} 100 100``
+
 
 Ceph OSD:
 ---------
@@ -47,6 +51,17 @@ Ceph MON:
 
 CEPH MGR:
 ---------
+
+Cluster performance:
+--------------------
+1. Benchmark the cluster
+
+    (Can also create a new pool and using it to benchmark: ``ceph osd pool create ${pool_name} 100 100``)
+
+    - write: ``rados bench -p ${pool_name} 10 write --cleanup``
+    - seq read:  ``rados bench -p ${pool_name} 10 seq``
+    - rando  read:  ``rados bench -p ${pool_name} 10 rand``
+
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
 -----

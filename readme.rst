@@ -57,3 +57,7 @@ http://lists.ceph.com/pipermail/ceph-users-ceph.com/2017-April/017378.html
 
 http://smithfarm-thebrain.blogspot.com/search/label/ceph
 
+Benchmarking:
+-------------
+https://tracker.ceph.com/projects/ceph/wiki/Benchmark_Ceph_Cluster_Performance
+
