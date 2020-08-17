@@ -61,8 +61,12 @@ Benchmarking:
 -------------
 https://tracker.ceph.com/projects/ceph/wiki/Benchmark_Ceph_Cluster_Performance
 
-Ceph tuning:
+Ceph performance/tuning:
 ------------
 https://documentation.suse.com/ses/6/html/ses-all/tuning-ceph.html
 
+https://yourcmc.ru/wiki/Ceph_performance
 
+Code walkthroughs:
+------------------
+https://tracker.ceph.com/projects/ceph/wiki/Code_Walkthroughs
