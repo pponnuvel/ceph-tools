@@ -70,7 +70,7 @@ Cluster performance:
 
 CEPH CRASH REPORTS:
 -------------------
-1. List all crashes: ``ceph crash ls`
+1. List all crashes: ``ceph crash ls``
 
 2. Details of a specific crash: ``ceph crash info <crash-id>``
 
