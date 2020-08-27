@@ -68,6 +68,16 @@ Cluster performance:
     - seq read:  ``rados bench -p ${pool_name} 10 seq``
     - rando  read:  ``rados bench -p ${pool_name} 10 rand``
 
+CEPH CRASH REPORTS:
+-------------------
+1. List all crashes: ``ceph crash ls`
+
+2. Details of a specific crash: ``ceph crash info <crash-id>``
+
+3. Clear a crash: ``ceph crash archive <crash-id>``
+
+4. Clear all: ``ceph crash archive-all``
+
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
 -----
