@@ -75,6 +75,8 @@ UCA - Ceph Mapping:
 -------------------
 https://github.com/openstack/charms.ceph/blob/b688f048895a3d95473bfce160c1e8f24d44573c/charms_ceph/utils.py#L3130
 
+https://wiki.ubuntu.com/OpenStack/CloudArchive
+
 Books:
 ------
 
