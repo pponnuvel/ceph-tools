@@ -74,3 +74,11 @@ https://tracker.ceph.com/projects/ceph/wiki/Code_Walkthroughs
 UCA - Ceph Mapping:
 -------------------
 https://github.com/openstack/charms.ceph/blob/b688f048895a3d95473bfce160c1e8f24d44573c/charms_ceph/utils.py#L3130
+
+Books:
+------
+
+`Mastering Ceph`_
+
+
+.. _Mastering Ceph: https://www.amazon.co.uk/Mastering-Ceph-Redefine-storage-system-ebook/dp/B01BSTEDIQ_
