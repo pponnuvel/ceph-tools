@@ -67,6 +67,8 @@ https://documentation.suse.com/ses/6/html/ses-all/tuning-ceph.html
 
 https://yourcmc.ru/wiki/Ceph_performance
 
+https://access.redhat.com/sites/default/files/attachments/20150325_network_performance_tuning.pdf
+
 Code walkthroughs:
 ------------------
 https://tracker.ceph.com/projects/ceph/wiki/Code_Walkthroughs
