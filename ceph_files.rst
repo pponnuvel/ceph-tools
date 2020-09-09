@@ -12,3 +12,8 @@ Log files:
 - Deployed OSD: ``/var/lib/ceph/osd/``
 
 - Log rotate: ``/etc/logrotate.d/[ceph-common|ceph]``
+
+Crash files:
+------------
+
+- Default crash location: ``/var/log/ceph/crash``

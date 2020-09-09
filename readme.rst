@@ -4,6 +4,24 @@ General:
 --------
 https://tracker.ceph.com/projects/ceph/wiki/10_Commands_Every_Ceph_Administrator_Should_Know
 
+http://smalldatum.blogspot.com/2020/01/deletes-are-fast-and-slow-in-lsm.html
+
+https://blog.widodh.nl/2016/01/slow-requests-with-ceph-waiting-for-rw-locks/
+
+https://swamireddy.wordpress.com/2016/06/17/ceph-diff-ceph-osd-reweight-ceph-osd-crush-reweight/
+
+http://knowledgebase.45drives.com/kbtopic/ceph/
+
+https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/1.2.3/html/red_hat_ceph_administration_guide/index
+
+https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/troubleshooting_guide
+
+https://docs.ceph.com/docs/argonaut/ops/index.html
+
+http://lists.ceph.com/pipermail/ceph-users-ceph.com/2017-April/017378.html
+
+http://smithfarm-thebrain.blogspot.com/search/label/ceph
+
 WAL expansion:
 --------------
 https://people.canonical.com/~lathiat/00273199/wal-expansion-steps.txt
@@ -33,29 +51,13 @@ https://tracker.ceph.com/issues/36482#note-16
 
 https://rocksdb.org/blog/2016/01/29/compaction_pri.html
 
-Others:
+bcache:
 -------
-http://smalldatum.blogspot.com/2020/01/deletes-are-fast-and-slow-in-lsm.html
-
 https://bcache.evilpiepirate.org/
 
-https://blog.widodh.nl/2016/01/slow-requests-with-ceph-waiting-for-rw-locks/
-
-https://swamireddy.wordpress.com/2016/06/17/ceph-diff-ceph-osd-reweight-ceph-osd-crush-reweight/
-
-http://knowledgebase.45drives.com/kbtopic/ceph/
-
+BlueStore:
+----------
 https://events.static.linuxfound.org/sites/events/files/slides/20170323%20bluestore.pdf
-
-https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/1.2.3/html/red_hat_ceph_administration_guide/index
-
-https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/troubleshooting_guide
-
-https://docs.ceph.com/docs/argonaut/ops/index.html
-
-http://lists.ceph.com/pipermail/ceph-users-ceph.com/2017-April/017378.html
-
-http://smithfarm-thebrain.blogspot.com/search/label/ceph
 
 Benchmarking:
 -------------
@@ -79,9 +81,15 @@ https://github.com/openstack/charms.ceph/blob/b688f048895a3d95473bfce160c1e8f24d
 
 https://wiki.ubuntu.com/OpenStack/CloudArchive
 
-Upstream youtube:
+Upstream videos/SM:
 -----------------
 https://www.youtube.com/c/Cephstorage/
+
+https://twitter.com/ceph
+
+https://ceph.io/irc/
+
+Stackoverflow questions: https://stackoverflow.com/questions/tagged/ceph
 
 Books:
 ------
