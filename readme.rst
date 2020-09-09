@@ -79,6 +79,10 @@ https://github.com/openstack/charms.ceph/blob/b688f048895a3d95473bfce160c1e8f24d
 
 https://wiki.ubuntu.com/OpenStack/CloudArchive
 
+Upstream youtube:
+-----------------
+https://www.youtube.com/c/Cephstorage/
+
 Books:
 ------
 
