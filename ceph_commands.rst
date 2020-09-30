@@ -9,9 +9,9 @@ Pools:
 ------
 1. Create a rados pool: ``ceph osd pool create ${pool_name} 100 100``
 
-2. Get erasure coded profiles: `` ceph osd erasure-code-profile ls``
+2. Get erasure coded profiles: ``ceph osd erasure-code-profile ls``
 
-3. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph```
+3. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
 
 
 Ceph OSD:
