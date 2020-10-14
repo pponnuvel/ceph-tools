@@ -43,7 +43,7 @@ Ceph OSD:
 
 13. Get an OSD's lvm: ``ceph-volume lvm list``
 
-14. Change all OSDs' OSD_param: ``ceph tell mon.* config set OSD_param {value}``
+14. Change all OSDs' OSD_param: ``ceph tell osd.* config set OSD_param {value}``
 
 15. Get OSD versions (from a monitor):
  a. ``ceph report | jq '.osd_metadata | .[] | .ceph_version'``  
