@@ -14,6 +14,10 @@ Pools:
 3. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
 
 
+Operations:
+1. PG redistribution/balancing:
+  - Use [balancer](https://docs.ceph.com/en/latest/rados/operations/balancer/) for Luminous or newer versions.
+
 Ceph OSD:
 ---------
 
@@ -49,7 +53,6 @@ Ceph OSD:
  a. ``ceph report | jq '.osd_metadata | .[] | .ceph_version'``  
  b. ``ceph tell osd.* version``  
  c. ``ceph osd versions``
-
 
 Ceph MON:
 ---------
