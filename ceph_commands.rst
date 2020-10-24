@@ -15,6 +15,7 @@ Pools:
 
 
 Operations:
+-----------
 1. PG redistribution/balancing:
   - Use [balancer](https://docs.ceph.com/en/latest/rados/operations/balancer/) for Luminous or newer versions.
 
