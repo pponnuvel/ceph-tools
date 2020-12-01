@@ -82,13 +82,6 @@ https://github.com/openstack/charms.ceph/blob/b688f048895a3d95473bfce160c1e8f24d
 https://wiki.ubuntu.com/OpenStack/CloudArchive
 
 
-Books:
-------
-
-`Mastering Ceph`_
-
-.. _Mastering Ceph: https://www.amazon.co.uk/Mastering-Ceph-Redefine-storage-system-ebook/dp/B01BSTEDIQ_
-
 fio:
 ----
 https://tobert.github.io/post/2014-04-17-fio-output-explained.html
