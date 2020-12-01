@@ -96,5 +96,13 @@ Books:
 
 `Mastering Ceph`_
 
-
 .. _Mastering Ceph: https://www.amazon.co.uk/Mastering-Ceph-Redefine-storage-system-ebook/dp/B01BSTEDIQ_
+
+fio:
+----
+https://tobert.github.io/post/2014-04-17-fio-output-explained.html
+
+http://tfindelkind.com/2015/08/04/fio-flexible-io-tester-part1-installation-and-compiling-if-needed/
+
+https://arstechnica.com/gadgets/2020/02/how-fast-are-your-disks-find-out-the-open-source-way-with-fio/
+
