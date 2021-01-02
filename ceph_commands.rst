@@ -7,7 +7,7 @@ General/Cluster mgmt:
 
 Pools:
 ------
-1. Create a rados pool: ``ceph osd pool create ${pool_name} 100 100``
+1. Create a rados pool (replicated): ``ceph osd pool create ${pool_name} 128 128 replicated``
 
 2. Get erasure coded profiles: ``ceph osd erasure-code-profile ls``
 
