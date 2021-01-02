@@ -89,6 +89,18 @@ CEPH CRASH reports:
 
 6. Crash summary: ``ceph crash stat``
 
+PGs:
+----
+
+1. Get all PGs: ``ceph pg dump``
+
+2. Get all PGs & state: ``ceph osd health detail``
+
+3. Query a PG: ``ceph pg <pg-id> query
+
+4. Get an object's PG: ``ceph osd map <pool-id> <object-id>
+
+
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
 -----
 
