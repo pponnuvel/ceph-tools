@@ -8,9 +8,9 @@ Pools:
 
 4. List pools: ``ceph osd lspools``
 
-EC pools:
----------
-1. Usabble storage capacity: ``K/(K + M) %`` 
+5. EC pool usabble storage capacity: ``K/(K + M) %`` 
+
+5. Repl pool usabble storage capacity: ``1/replicas %`` 
 
 
 Operations:
