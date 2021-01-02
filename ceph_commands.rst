@@ -1,10 +1,3 @@
-General/Cluster mgmt:
----------------------
-
-1. Deploy new cluster components: ``ceph-deploy [options]``
-
-2. List pools: ``ceph osd lspools``
-
 Pools:
 ------
 1. Create a rados pool (replicated): ``ceph osd pool create ${pool_name} 128 128 replicated``
@@ -12,6 +5,12 @@ Pools:
 2. Get erasure coded profiles: ``ceph osd erasure-code-profile ls``
 
 3. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
+
+4. List pools: ``ceph osd lspools``
+
+EC pools:
+---------
+1. Usabble storage capacity: ``K/(K + M) %`` 
 
 
 Operations:
