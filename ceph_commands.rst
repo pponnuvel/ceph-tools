@@ -1,16 +1,18 @@
 Pools:
 ------
-1. Create a rados pool (replicated): ``ceph osd pool create ${pool_name} 128 128 replicated``
+1. List pools: ``ceph osd lspools``
 
-2. Get erasure coded profiles: ``ceph osd erasure-code-profile ls``
+2. Create a rados pool (replicated): ``ceph osd pool create ${pool_name} 128 128 replicated``
 
-3. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
+3. Repl pool usabble storage capacity: ``1/replicas %``
 
-4. List pools: ``ceph osd lspools``
+4. Get erasure coded profiles: ``ceph osd erasure-code-profile ls``
 
-5. EC pool usabble storage capacity: ``K/(K + M) %`` 
+5. Create an EC profile: ``ceph osd erasure-code-profile set test_ec_profile k=4 m=2 plugin=jerasure technique=reed_sol_van``
 
-5. Repl pool usabble storage capacity: ``1/replicas %`` 
+6. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
+
+7. EC pool usabble storage capacity: ``K/(K + M) %`` 
 
 
 Operations:
