@@ -12,7 +12,9 @@ Pools:
 
 6. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
 
-7. EC pool usabble storage capacity: ``K/(K + M) %`` 
+7. Create an EC pool: `` ceph osd pool create ecpool 128 128 erasure test_ec_pool``
+
+8. EC pool usabble storage capacity: ``K/(K + M) %`` 
 
 
 Operations:
@@ -100,6 +102,11 @@ PGs:
 3. Query a PG: ``ceph pg <pg-id> query
 
 4. Get an object's PG: ``ceph osd map <pool-id> <object-id>
+
+RADOS:
+------
+
+1. Read an object directly: ``rados --pool test_pool get object_name -``
 
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
