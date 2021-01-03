@@ -21,8 +21,8 @@ Operations:
 -----------
 1. PG redistribution/balancing: use [balancer](https://docs.ceph.com/en/latest/rados/operations/balancer/) for Luminous or newer versions.
 
-Ceph OSD:
----------
+OSDs:
+-----
 
 1. Status/start/stop an OSD: ``systemctl [status|start|stop] osd@NUM``
 
@@ -56,6 +56,9 @@ Ceph OSD:
  a. ``ceph report | jq '.osd_metadata | .[] | .ceph_version'``  
  b. ``ceph tell osd.* version``  
  c. ``ceph osd versions``
+
+16. Mount OSD to view as files: ``ceph-objectstore-tool --op fuse --data-path /var/lib/ceph/osd/ceph-NUM --mountpoint /mnt/osd-NUM``
+
 
 Ceph MON:
 ---------
