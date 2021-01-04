@@ -112,6 +112,8 @@ RADOS:
 
 1. Read an object directly: ``rados --pool test_pool get object_name -``
 
+2. List objects from a pool: ``rados -p pool_name ls``
+
 RBD:
 ----
 
