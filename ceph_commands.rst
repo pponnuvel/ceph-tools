@@ -117,7 +117,9 @@ RBD:
 
 CephFS:
 -------
-1. CephFS status: ``ceph fs status``
+1. Create ceph fs: ``ceph fs create fs_name meta_repl_pool_name data_pool_name
+
+2. CephFS status: ``ceph fs status``
 
 
 
