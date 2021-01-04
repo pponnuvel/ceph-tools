@@ -60,16 +60,17 @@ OSDs:
 16. Mount OSD to view as files: ``ceph-objectstore-tool --op fuse --data-path /var/lib/ceph/osd/ceph-NUM --mountpoint /mnt/osd-NUM``
 
 
-Ceph MON:
----------
+MON:
+----
 
 1. Change all monitor's MON_param: ``ceph tell mon.* config set MON_param {value}``
 
 2. List all the pools: ``rados lspools``
 
 
-CEPH MGR:
----------
+MGR:
+----
+
 
 Cluster performance:
 --------------------
@@ -81,8 +82,8 @@ Cluster performance:
     - seq read:  ``rados bench -p ${pool_name} 10 seq``
     - rando  read:  ``rados bench -p ${pool_name} 10 rand``
 
-CEPH CRASH reports:
--------------------
+CRASH reports:
+--------------
 1. List all crashes: ``ceph crash ls``
 
 2. Details of a specific crash: ``ceph crash info <crash-id>``
@@ -110,6 +111,14 @@ RADOS:
 ------
 
 1. Read an object directly: ``rados --pool test_pool get object_name -``
+
+RBD:
+----
+
+CephFS:
+-------
+1. CephFS status: ``ceph fs status``
+
 
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
