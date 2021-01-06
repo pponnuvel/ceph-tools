@@ -22,6 +22,10 @@ Pools:
 
 11. Enable overwrite for ec pool: ``ceph osd pool set <ec_poolname> allow_ec_overwrites true``
 
+12. Set/change ``pg_num``: ``ceph osd pool set data pg_num 256``
+
+13. Set/change ``pgp_num``: ``ceph osd pool set data pgp_num 256``
+
 
 Operations:
 -----------
