@@ -12,9 +12,13 @@ Pools:
 
 6. Get specific erasure coded profile info: ``ceph osd erasure-code-profile get ec-profile-cinder-ceph``
 
-7. Create an EC pool: `` ceph osd pool create ecpool 128 128 erasure test_ec_pool``
+7. Create an EC pool: ``ceph osd pool create ecpool 128 128 erasure test_ec_pool``
 
 8. EC pool usabble storage capacity: ``K/(K + M) %`` 
+
+9. List pool detail: ``ceph osd pool ls detail``
+
+10. Eanble application for a pool: ``ceph osd pool application enable <poolname> <poolname>```
 
 
 Operations:
