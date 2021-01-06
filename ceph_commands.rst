@@ -74,6 +74,15 @@ MON:
 
 MGR:
 ----
+1. Enable a module (balancer here): ``ceph mgr module enable balancer``
+
+2. List modules: ``ceph mgr module ls``
+
+Enalbe balancer:
+```ceph osd set-require-min-compat-client luminous``
+``ceph mgr module enable balancer``
+``ceph balancer mode upmap``
+``ceph balancer on``
 
 
 Cluster performance:
