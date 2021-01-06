@@ -79,10 +79,10 @@ MGR:
 2. List modules: ``ceph mgr module ls``
 
 Enalbe balancer:
-```ceph osd set-require-min-compat-client luminous``
-``ceph mgr module enable balancer``
-``ceph balancer mode upmap``
-``ceph balancer on``
+  - ``ceph osd set-require-min-compat-client luminous``  
+  - ``ceph mgr module enable balancer``  
+  - ``ceph balancer mode upmap``  
+  - ``ceph balancer on``  
 
 
 Cluster performance:
@@ -132,7 +132,7 @@ RBD:
 
 CephFS:
 -------
-1. Create ceph fs: ``ceph fs create fs_name meta_repl_pool_name data_pool_name
+1. Create ceph fs: ``ceph fs create fs_name meta_repl_pool_name data_pool_name``
 
 2. CephFS status: ``ceph fs status``
 
