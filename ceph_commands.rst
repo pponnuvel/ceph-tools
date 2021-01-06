@@ -20,6 +20,8 @@ Pools:
 
 10. Eanble application for a pool: ``ceph osd pool application enable <poolname> <poolname>```
 
+11. Enable overwrite for ec pool: ``ceph osd pool set <ec_poolname> allow_ec_overwrites true``
+
 
 Operations:
 -----------
