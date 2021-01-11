@@ -27,10 +27,6 @@ Pools:
 13. Set/change ``pgp_num``: ``ceph osd pool set data pgp_num 256``
 
 
-Operations:
------------
-1. PG redistribution/balancing: use [balancer](https://docs.ceph.com/en/latest/rados/operations/balancer/) for Luminous or newer versions.
-
 OSDs:
 -----
 
@@ -126,6 +122,11 @@ PGs:
 
 4. Get an object's PG: ``ceph osd map <pool-id> <object-id>
 
+5. PG stat: ``ceph pg stat``
+
+6. PG balancing: use balancer_ for Luminous or newer versions.
+
+.. _balancer: https://docs.ceph.com/en/latest/rados/operations/balancer/
 RADOS:
 ------
 
