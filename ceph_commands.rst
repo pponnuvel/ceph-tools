@@ -91,7 +91,7 @@ Cluster performance:
 --------------------
 1. Benchmark the cluster
 
-    (Can also create a new pool and using it to benchmark: ``ceph osd pool create ${pool_name} 100 100``)
+    (Can also create a new pool and use it to benchmark: ``ceph osd pool create ${pool_name} 100 100``)
 
     - write: ``rados bench -p ${pool_name} 10 write --cleanup``
     - seq read:  ``rados bench -p ${pool_name} 10 seq``
@@ -118,15 +118,16 @@ PGs:
 
 2. Get all PGs & state: ``ceph osd health detail``
 
-3. Query a PG: ``ceph pg <pg-id> query
+3. Query a PG: ``ceph pg <pg-id> query``
 
-4. Get an object's PG: ``ceph osd map <pool-id> <object-id>
+4. Get an object's PG: ``ceph osd map <pool-id> <object-id>``
 
 5. PG stat: ``ceph pg stat``
 
 6. PG balancing: use balancer_ for Luminous or newer versions.
 
 .. _balancer: https://docs.ceph.com/en/latest/rados/operations/balancer/
+
 RADOS:
 ------
 
@@ -144,6 +145,11 @@ CephFS:
 2. CephFS status: ``ceph fs status``
 
 
+Logging:
+--------
+
+Auths:
+------
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
 -----
