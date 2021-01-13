@@ -150,6 +150,14 @@ Logging:
 
 Auths:
 ------
+1. List users: ``ceph auth ls``
+
+2. Get auth info user: ``ceph auth get <TYPE.ID>`` e.g. ``ceph auth get client.admin``
+
+3. Delete a user: ``ceph auth del <TYPE.ID>`` e.g. ``ceph auth del client.admin``
+
+4. Display auth key: ``ceph auth print-key <TYPE.ID>``
+
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
 -----
