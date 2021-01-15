@@ -130,13 +130,15 @@ PGs:
 
 RADOS:
 ------
-
 1. Read an object directly: ``rados --pool test_pool get object_name -``
 
 2. List objects from a pool: ``rados -p pool_name ls``
 
 RBD:
 ----
+1. List block devices in ``rbd`` pool: ``rbd ls``
+
+2. List block devices in ``<pool_name>``: ``rbd ls <pool_name>``
 
 CephFS:
 -------
@@ -146,7 +148,11 @@ CephFS:
 
 3. Initialize a pool: ``rbd pool init <pool_name>``
 
+4. Create a block device image: ``rbd create --size <MBs> <pool-name>/<image-name>``
 
+5. Get rbd image info: ``rbd info <pool_name>/<image_name>``
+
+6. Remove a rbd block device: ``rbd rm <pool_name>/<image_name>``
 
 Logging:
 --------
