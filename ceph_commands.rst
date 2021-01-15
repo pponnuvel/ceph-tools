@@ -140,12 +140,6 @@ RBD:
 
 2. List block devices in ``<pool_name>``: ``rbd ls <pool_name>``
 
-CephFS:
--------
-1. Create ceph fs: ``ceph fs create fs_name meta_repl_pool_name data_pool_name``
-
-2. CephFS status: ``ceph fs status``
-
 3. Initialize a pool: ``rbd pool init <pool_name>``
 
 4. Create a block device image: ``rbd create --size <MBs> <pool-name>/<image-name>``
@@ -153,6 +147,12 @@ CephFS:
 5. Get rbd image info: ``rbd info <pool_name>/<image_name>``
 
 6. Remove a rbd block device: ``rbd rm <pool_name>/<image_name>``
+
+CephFS:
+-------
+1. Create ceph fs: ``ceph fs create fs_name meta_repl_pool_name data_pool_name``
+
+2. CephFS status: ``ceph fs status``
 
 Logging:
 --------
