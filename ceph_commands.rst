@@ -167,6 +167,8 @@ Auths:
 
 4. Display auth key: ``ceph auth print-key <TYPE.ID>``
 
+Monitoring:
+-----------
 
 More (Not shown/used above. Idea is to show at least usage for each command and then remove from below)
 -----
@@ -292,6 +294,4 @@ More (Not shown/used above. Idea is to show at least usage for each command and 
  ``rbd-replay-prep``
 
  ``rbd-replay``
-
- ``rbd``
-
+ 
