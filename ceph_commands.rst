@@ -18,7 +18,7 @@ Pools:
 
 9. List pool detail: ``ceph osd pool ls detail``
 
-10. Eanble application for a pool: ``ceph osd pool application enable <poolname> <poolname>```
+10. Eanble application for a pool: ``ceph osd pool application enable <poolname> <application_name>```
 
 11. Enable overwrite for ec pool: ``ceph osd pool set <ec_poolname> allow_ec_overwrites true``
 
@@ -143,6 +143,9 @@ CephFS:
 1. Create ceph fs: ``ceph fs create fs_name meta_repl_pool_name data_pool_name``
 
 2. CephFS status: ``ceph fs status``
+
+3. Initialize a pool: ``rbd pool init <pool_name>``
+
 
 
 Logging:
