@@ -230,8 +230,6 @@ More (Not shown/used above. Idea is to show at least usage for each command and 
 
  ``ceph_perf_objectstore``
 
- ``ceph_psim``
-
  ``ceph_radosacl``
 
  ``ceph_rgw_jsonparser``
