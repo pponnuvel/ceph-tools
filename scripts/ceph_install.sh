@@ -19,7 +19,7 @@ main()
         juju ssh $mon 'sudo systemctl restart ceph-mon.target && sudo systemctl restart ceph-mgr.target' || err_exit "Restarting $mon"
     done
 
-    # This might need to be changed depending on the cluster size/speed. Wait for monitors to be functional.
+    # This might need to be increased depending on the cluster size/speed. Basically, wait for monitors to be functional and in quorum.
     sleep 10
 
     { juju run --unit ceph-mon/leader 'ceph health' | grep -q HEALTH_OK; } || err_exit "monitor HEALTH check"
