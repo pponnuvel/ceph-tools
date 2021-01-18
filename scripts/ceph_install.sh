@@ -28,7 +28,7 @@ main()
     juju run-action --wait ceph-mon/leader set-noout || err_exit "set-noout"
 
 
-    for osd in "${OSDS[@]}"; ek
+    for osd in "${OSDS[@]}"; do
         juju ssh $osd 'sudo apt update && sudo apt install ceph -y' || err_exit " Installing $osd"
 
         juju ssh $osd 'sudo systemctl restart ceph-osd.target' || err_exit "Restarting $osd"
