@@ -1,0 +1,2 @@
+- https://evilpiepirate.org/git/linux-bcache.git/tree/Documentation/bcache.txt
+- https://www.kernel.org/doc/html/latest/admin-guide/bcache.html
