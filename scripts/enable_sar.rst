@@ -9,5 +9,5 @@
 
 - If you want to see all statistics you can type: sar -A
 
-- Collect: sudo sar -A > $(date +`hostname`-%d-%m-%y-%H%M.log)
+- Collect: sudo sar -A > $(date + $(hostname)-%d-%m-%y-%H%M.log)
 
