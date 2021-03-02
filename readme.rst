@@ -59,17 +59,17 @@ BlueStore:
 ----------
 https://events.static.linuxfound.org/sites/events/files/slides/20170323%20bluestore.pdf
 
-Benchmarking:
+Benchmarking/performance/tuning:
 -------------
 https://tracker.ceph.com/projects/ceph/wiki/Benchmark_Ceph_Cluster_Performance
 
-Ceph performance/tuning:
-------------
 https://documentation.suse.com/ses/6/html/ses-all/tuning-ceph.html
 
 https://yourcmc.ru/wiki/Ceph_performance
 
 https://access.redhat.com/sites/default/files/attachments/20150325_network_performance_tuning.pdf
+
+https://accelazh.github.io/ceph/Ceph-Performance-Tuning-Checklist
 
 Code walkthroughs:
 ------------------
