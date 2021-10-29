@@ -75,12 +75,13 @@ Code walkthroughs:
 ------------------
 https://tracker.ceph.com/projects/ceph/wiki/Code_Walkthroughs
 
-UCA - Ceph Mapping:
--------------------
+UCA - Ceph Mapping/releases:
+----------------------------
 https://github.com/openstack/charms.ceph/blob/master/charms_ceph/utils.py#L3175
 
 https://wiki.ubuntu.com/OpenStack/CloudArchive
 
+https://ubuntu.com/about/release-cycle
 
 fio:
 ----
