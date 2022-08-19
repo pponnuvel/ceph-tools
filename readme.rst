@@ -77,7 +77,7 @@ https://tracker.ceph.com/projects/ceph/wiki/Code_Walkthroughs
 
 UCA - Ceph Mapping/releases:
 ----------------------------
-https://github.com/openstack/charms.ceph/blob/master/charms_ceph/utils.py#L3175
+https://github.com/openstack/charms.ceph/blob/master/charms_ceph/utils.py#L3204
 
 https://wiki.ubuntu.com/OpenStack/CloudArchive
 
